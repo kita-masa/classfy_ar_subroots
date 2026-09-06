@@ -1,0 +1,5 @@
+digraph G {
+  label="Rank: 2\nCommutator Rank: 0";
+  0 [style=filled, label="su_2", shape=doublecircle, fillcolor=purple, fontcolor=red, tooltip="0 1"]
+  1 [style=filled, label="", shape=doublecircle, fillcolor=purple, fontcolor=red, tooltip="-2 -1"]
+}

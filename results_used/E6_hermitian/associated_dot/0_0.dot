@@ -1,0 +1,14 @@
+digraph G {
+  label="Rank: 4\nCommutator Rank: 1";
+  0 [style=filled, label="su_4", shape=doublecircle, fillcolor=purple, fontcolor=red, tooltip="-1 -1 -1 -1 -1 -1"]
+  1 [style=filled, label="su_2", shape=doublecircle, fillcolor=blue, fontcolor=red, tooltip="0 0 0 0 0 1"]
+  2 [style=filled, label="su_3", shape=doublecircle, fillcolor=blue, fontcolor=red, tooltip="0 0 0 0 1 0"]
+  3 [style=filled, label="Z(su)_0", shape=doublecircle, fillcolor=blue, fontcolor=red, tooltip="0 0 1 0 0 0"]
+  4 [style=filled, label="", shape=doublecircle, fillcolor=blue, fontcolor=red, tooltip="0 0 -1 -1 -1 -1"]
+  5 [style=filled, label="lowest root", shape=doublecircle, fillcolor=purple, fontcolor=red, tooltip="1 1 2 3 2 1"]
+  0 -> 1 [label="", dir=none]
+  4 -> 1 [label="", dir=none]
+  4 -> 3 [label="", dir=none]
+  4 -> 5 [label="", dir=none]
+  1 -> 2 [label="", dir=none]
+}

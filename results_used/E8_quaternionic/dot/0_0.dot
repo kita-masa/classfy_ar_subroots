@@ -1,0 +1,20 @@
+digraph G {
+  label="Rank: 2\nCommutator Rank: 6";
+  0 [style=filled, label="su_1", shape=doublecircle, fillcolor=blue, fontcolor=red, tooltip="2 3 4 6 5 4 3 2"]
+  1 [style=filled, label="Z(su)_0", shape=doublecircle, fillcolor=blue, fontcolor=red, tooltip="0 0 0 0 0 1 0 0"]
+  2 [style=filled, label="Z(su)_1", shape=doublecircle, fillcolor=blue, fontcolor=red, tooltip="0 0 0 0 1 0 0 0"]
+  3 [style=filled, label="Z(su)_2", shape=doublecircle, fillcolor=blue, fontcolor=red, tooltip="0 0 0 1 0 0 0 0"]
+  4 [style=filled, label="Z(su)_3", shape=doublecircle, fillcolor=blue, fontcolor=red, tooltip="0 0 1 0 0 0 0 0"]
+  5 [style=filled, label="Z(su)_4", shape=doublecircle, fillcolor=blue, fontcolor=red, tooltip="0 1 0 0 0 0 0 0"]
+  6 [style=filled, label="Z(su)_5", shape=doublecircle, fillcolor=blue, fontcolor=red, tooltip="1 0 0 0 0 0 0 0"]
+  7 [style=filled, label="", shape=doublecircle, fillcolor=purple, fontcolor=red, tooltip="-2 -2 -3 -4 -3 -2 -1 -1"]
+  8 [style=filled, label="su_0, lowest root", shape=doublecircle, fillcolor=purple, fontcolor=red, tooltip="-2 -3 -4 -6 -5 -4 -3 -1"]
+  8 -> 0 [label="", dir=none]
+  7 -> 6 [label="", dir=none]
+  7 -> 0 [label="", dir=none]
+  1 -> 2 [label="", dir=none]
+  2 -> 3 [label="", dir=none]
+  3 -> 4 [label="", dir=none]
+  3 -> 5 [label="", dir=none]
+  4 -> 6 [label="", dir=none]
+}

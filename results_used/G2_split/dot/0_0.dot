@@ -1,0 +1,8 @@
+digraph G {
+  label="Rank: 2\nCommutator Rank: 0";
+  0 [style=filled, label="su_1", shape=doublecircle, fillcolor=blue, fontcolor=red, tooltip="3 2"]
+  1 [style=filled, label="", shape=doublecircle, fillcolor=purple, fontcolor=red, tooltip="-1 -1"]
+  2 [style=filled, label="su_0, lowest root", shape=doublecircle, fillcolor=purple, fontcolor=red, tooltip="-3 -1"]
+  2 -> 0 [label="", dir=none]
+  0 -> 1 [label="3"]
+}
